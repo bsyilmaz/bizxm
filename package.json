@@ -1,0 +1,19 @@
+{
+  "name": "bizxm-signaling-server",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server for BizXM app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["webrtc", "signaling", "render"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5"
+  }
+} 
